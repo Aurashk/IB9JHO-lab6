@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_compile_options(-Wall -Wextra)
 
-set(SRC_FILES src/main.cpp src/Point.cpp src/Line.cpp src/Triangle.cpp)
+set(SRC_FILES src/main.c src/binomial_expectation.c)
 add_executable(my_program ${SRC_FILES})
 target_link_libraries(my_program m)
 
